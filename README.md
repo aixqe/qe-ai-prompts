@@ -20,3 +20,4 @@ Each prompt is a starting point, not a finished product. Fill in the bracketed p
 | [defect-triage](prompts/defect-triage.md) | Triage a bug report: severity, priority, and reasoning |
 | [api-contract-tests](prompts/api-contract-tests.md) | Generate API contract tests from an OpenAPI spec |
 | [regression-risk](prompts/regression-risk.md) | Assess regression risk of a code change and recommend what to test |
+| [spec-acceptance-tests](prompts/spec-acceptance-tests.md) | Turn a spec into acceptance tests, one per AC ID, with questions for the spec owner instead of guesses |
