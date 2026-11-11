@@ -1,0 +1,45 @@
+{
+  "capture_a": {
+    "body": "<form action=\"/login\" method=\"post\"><input value=\"MQCOZx4IY7dF36JpxmJq_nIW-EMwtU5-\" name=\"authenticity_token\" type=\"hidden\"><input value=\"2026-11-11T14:29:29.657136+00:00:aadbe968c1cfaa7d\" name=\"timestamp\" type=\"hidden\"><input value=\"e2c1ff7036884c852e835f484954e306fffea7bae7fa8944836e57aea9d314e2\" name=\"timestamp_secret\" type=\"hidden\"><input value=\"a32003aac5c68a40\" name=\"trace_id\" type=\"hidden\"><input value=\"demo-login\" name=\"flow\" type=\"hidden\"><button>Continue</button></form>",
+    "headers": {
+      "Server": "BaseHTTP/0.6 Python/3.12.14",
+      "Date": "Wed, 11 Nov 2026 14:29:29 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "484",
+      "Cache-Control": "no-store",
+      "Set-Cookie": "lab_session=6bb9a0f969a30d700705a1de7ec0b048; HttpOnly; SameSite=Lax; Path=/"
+    },
+    "fields": {
+      "authenticity_token": "MQCOZx4IY7dF36JpxmJq_nIW-EMwtU5-",
+      "timestamp": "2026-11-11T14:29:29.657136+00:00:aadbe968c1cfaa7d",
+      "timestamp_secret": "e2c1ff7036884c852e835f484954e306fffea7bae7fa8944836e57aea9d314e2",
+      "trace_id": "a32003aac5c68a40",
+      "flow": "demo-login"
+    }
+  },
+  "capture_b": {
+    "body": "<form action=\"/login\" method=\"post\"><input value=\"xGEzWDc-rNM5uatNyLeVGZLQKleHT7-m\" name=\"authenticity_token\" type=\"hidden\"><input value=\"2026-11-11T14:29:29.660180+00:00:8d2b78ec3a2e9bdb\" name=\"timestamp\" type=\"hidden\"><input value=\"3bd1b5085116f82c178d23a62bb553418d2dbbea16437e1b731c9a5c1c18be61\" name=\"timestamp_secret\" type=\"hidden\"><input value=\"cc42009e67c0874e\" name=\"trace_id\" type=\"hidden\"><input value=\"demo-login\" name=\"flow\" type=\"hidden\"><button>Continue</button></form>",
+    "headers": {
+      "Server": "BaseHTTP/0.6 Python/3.12.14",
+      "Date": "Wed, 11 Nov 2026 14:29:29 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "484",
+      "Cache-Control": "no-store",
+      "Set-Cookie": "lab_session=b7ee3753931836c703e32125f52fc4df; HttpOnly; SameSite=Lax; Path=/"
+    },
+    "fields": {
+      "authenticity_token": "xGEzWDc-rNM5uatNyLeVGZLQKleHT7-m",
+      "timestamp": "2026-11-11T14:29:29.660180+00:00:8d2b78ec3a2e9bdb",
+      "timestamp_secret": "3bd1b5085116f82c178d23a62bb553418d2dbbea16437e1b731c9a5c1c18be61",
+      "trace_id": "cc42009e67c0874e",
+      "flow": "demo-login"
+    }
+  },
+  "changed_html_fields": [
+    "authenticity_token",
+    "timestamp",
+    "timestamp_secret",
+    "trace_id"
+  ],
+  "session_cookie_changed": true
+}

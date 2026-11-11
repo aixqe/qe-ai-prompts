@@ -1,0 +1,24 @@
+name: Correlation lab replay
+on:
+  push:
+    paths: ['experiments/correlation-lab/**', '.github/workflows/correlation-lab.yml']
+  pull_request:
+    paths: ['experiments/correlation-lab/**', '.github/workflows/correlation-lab.yml']
+permissions:
+  contents: read
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.10', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '${{ matrix.python }}'
+      - run: python experiments/correlation-lab/lab.py --trials 20 --output replay-artifacts
+      - uses: actions/upload-artifact@v4
+        with:
+          name: 'correlation-evidence-${{ matrix.python }}'
+          path: replay-artifacts

@@ -1,0 +1,85 @@
+{
+  "executed_at_utc": "2026-11-11T14:29:30.669030+00:00",
+  "trials_per_case": 20,
+  "environment": "Python stdlib; localhost; synthetic one-use sessions",
+  "ai_execution": "Assistant-reviewed frozen plan; no model API, timing or accuracy benchmark",
+  "results": [
+    {
+      "case": "stale_recording",
+      "attempts": 20,
+      "accepted": 0,
+      "statuses": {
+        "403": 20
+      },
+      "reasons": {
+        "missing_or_consumed_session": 20
+      }
+    },
+    {
+      "case": "cookie_only",
+      "attempts": 20,
+      "accepted": 0,
+      "statuses": {
+        "403": 20
+      },
+      "reasons": {
+        "csrf_mismatch": 20
+      }
+    },
+    {
+      "case": "csrf_only",
+      "attempts": 20,
+      "accepted": 0,
+      "statuses": {
+        "403": 20
+      },
+      "reasons": {
+        "timestamp_mismatch": 20
+      }
+    },
+    {
+      "case": "mixed_pair",
+      "attempts": 20,
+      "accepted": 0,
+      "statuses": {
+        "403": 20
+      },
+      "reasons": {
+        "signature_mismatch": 20
+      }
+    },
+    {
+      "case": "no_cookie",
+      "attempts": 20,
+      "accepted": 0,
+      "statuses": {
+        "403": 20
+      },
+      "reasons": {
+        "missing_or_consumed_session": 20
+      }
+    },
+    {
+      "case": "omit_static_flow",
+      "attempts": 20,
+      "accepted": 0,
+      "statuses": {
+        "403": 20
+      },
+      "reasons": {
+        "missing_or_wrong_flow": 20
+      }
+    },
+    {
+      "case": "correlated_without_trace",
+      "attempts": 20,
+      "accepted": 20,
+      "statuses": {
+        "200": 20
+      },
+      "reasons": {
+        "accepted": 20
+      }
+    }
+  ]
+}

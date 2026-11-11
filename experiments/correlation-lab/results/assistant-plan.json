@@ -1,0 +1,8 @@
+{
+  "authenticity_token": "extract",
+  "timestamp": "extract",
+  "timestamp_secret": "extract",
+  "trace_id": "omit",
+  "flow": "retain_constant",
+  "lab_session": "cookie_manager"
+}
